@@ -1,0 +1,73 @@
+/* Reset any UA style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+#header {
+    background: #333;
+    width: 100%;
+}
+
+/* Nav styling */
+#navigation {
+    padding: 20px 0;
+    word-spacing: 0.3em;
+    text-align: center;
+}
+
+#navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Raleway", "sans-serif";
+    font-size: 12px;
+    font-weight: 600;
+    padding: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+#navigation a:hover {
+    color: #f3f5bf;
+}
+
+/* Hero Styling */
+#hero {
+    height: 800px;
+    background: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#main {
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+
+#main h1 {
+    color: #333;
+    font-family: "Raleway", "sans-serif";
+    font-weight: 600;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+#main a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333;
+    font-family: "Raleway", "sans-serif";
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    letter-spacing: 0.1em;
+}
+
+#main a:hover {
+    color: #f3f5bf;
+}
+
